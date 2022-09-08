@@ -3,8 +3,9 @@
 // import { Funciones } from './typescript/Funciones';
 // import { TiposBasicos } from "./typescript/TiposBasicos";
 // import { ObjetosLiterales } from './typescript/ObjetosLiterales';
+// import { Usuarios } from './components/Usuarios';
 
-import { Usuarios } from './components/Usuarios';
+import { Formularios } from './components/Formularios';
 
 // import { Login } from './components/Login';
 
@@ -19,7 +20,8 @@ const App = () => {
       {/* <Contador /> */}
       {/* <ContadorConHook /> */}
       {/* <Login /> */}
-      <Usuarios />
+      {/* <Usuarios /> */}
+      <Formularios />
     </div>
   );
 };
